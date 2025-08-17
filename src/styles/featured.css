@@ -1,0 +1,119 @@
+
+.featured{
+    width: 100%;
+    height: 120vh;
+    background-color: white;
+    position: relative;
+}
+
+.featured h1{
+    font-size: 40px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.featured p{
+    font-size: 15px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.fxva{
+    background-color: transparent;
+    border: 5px solid black;
+    border-radius: 20px;
+    width: 100px;
+    height: 40px;
+    position: absolute;
+    top: 0;
+    right: 20px;
+
+}
+
+.featured button{
+    background-color: transparent;
+    border: 2px solid black;
+    border-radius: 20px;
+    width: 100px;
+    height: 40px;
+    margin-left: 20px;
+    margin-top: 20px;
+
+}
+
+
+.products_featured{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-wrap: wrap;
+    gap: 20px;
+
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 80%;
+    flex-shrink: 1;
+    flex-basis: auto;
+    object-fit: contain;
+}
+.card h3{
+    font-size: 20px;
+}
+.card p{
+    font-size: 15px;
+}
+.card img{
+    max-width: 100%;
+    max-height: 75%;
+    object-fit: contain; 
+}
+
+.soilboy{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.soildboy_cont{
+  width: 90%;
+  height: 80%;
+  position: relative;
+}
+.soilboy img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.soilboy h3{
+    position: absolute;
+    color: white;
+    z-index: 10;
+    left: 4%;
+    bottom:30%;
+    font-size: large;
+    font-weight: bold;
+}
+
+.soilboy button{
+    position: absolute;
+    color: white;
+    z-index: 10;
+    left: 4%;
+    bottom: 15%;
+    border: 3px solid white;
+    border-radius: 30px;
+    width: 120px;
+    height: 50px;
+}
+

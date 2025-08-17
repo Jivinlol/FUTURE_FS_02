@@ -1,0 +1,177 @@
+.container{
+    display: flex;
+    flex-direction: column;
+}
+.story{
+    margin-top: 20vh;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 6vw;
+    margin-bottom: 20vh;
+
+}
+
+.sleft{
+    width: 45%;
+    height: 100%;   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    flex-direction: column;
+}
+.sleft h1{
+    font-size: 30px;
+}
+.sleft button{
+    background-color: transparent;
+    border: 2px solid black;
+    border-radius: 20px;
+    width: 100px;
+    height: 40px;
+    margin-right: 190px;
+}
+.sright{
+    width: 45%;
+    height: 100%;
+}
+
+.sright img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+.under{
+    background-color: transparent;
+    width: 100px;
+    height: 40px;
+    margin-right: 190px;
+    text-decoration: underline;
+    border: none;
+}
+
+.sleft1{
+    width: 45%;
+    height: 100%;
+}
+
+.sleft1 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.sright1{
+    width: 45%;
+    height: 100%;   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    flex-direction: column;
+}
+
+.sright1 h1{
+    font-size: 30px;
+}
+
+.sright1 button{
+    background-color: transparent;
+    border: 2px solid black;
+    border-radius: 20px;
+    width: 100px;
+    height: 40px;
+    margin-right: 190px;
+
+}
+
+
+.soilboy{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.soildboy_cont{
+  width: 90%;
+  height: 80%;
+  background-color: aqua;
+  position: relative;
+}
+.soilboy img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.soilboy h3{
+    position: absolute;
+    color: white;
+    z-index: 10;
+    left: 4%;
+    bottom:30%;
+    font-size: large;
+    font-weight: bold;
+}
+
+.soilboy button{
+    position: absolute;
+    color: white;
+    z-index: 10;
+    left: 4%;
+    bottom: 15%;
+    border: 3px solid white;
+    border-radius: 30px;
+    width: 120px;
+    height: 50px;
+}
+
+
+.soilboy{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.soildboy_cont{
+  width: 90%;
+  height: 80%;
+  position: relative;
+}
+.soilboy img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.soilboy h3{
+    position: absolute;
+    color: white;
+    z-index: 10;
+    left: 4%;
+    bottom:30%;
+    font-size: large;
+    font-weight: bold;
+}
+
+.soilboy button{
+    position: absolute;
+    color: white;
+    z-index: 10;
+    left: 4%;
+    bottom: 15%;
+    border: 3px solid white;
+    border-radius: 30px;
+    width: 120px;
+    height: 50px;
+}
+
